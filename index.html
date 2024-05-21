@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps Pre-Requisite Course</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row flex-column-reverse m-0  flex-md-row">
+        <!-- Sidebar -->
+        <div class="col-md-3 p-3 sidebar">
+          <div class="d-flex justify-content-between  align-items-center mb-3">
+            <i class="bi bi-person-circle" style="font-size: 2rem"></i>
+            <div class="text-end">
+              <div>My Account</div>
+              <div>0% Complete</div>
+            </div>
+          </div>
+          <h3 class="mb-4">DevOps Pre-Requisite Course</h3>
+          <div class="progress mb-1" style="height: 10px">
+            <div
+              id="courseProgress"
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div id="courseProgressText" class="text-center mb-4">
+            0% (0/12 videos)
+          </div>
+          <div class="accordion" id="courseAccordion">
+            <!-- Introduction Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <i class="bi bi-play-circle-fill me-2"></i>
+                  <span>Introduction</span>
+                  <div class="progress-circle" data-progress="0">
+                    <svg viewBox="0 0 36 36">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#courseAccordion"
+              >
+                <div class="accordion-body">
+                  <ul class="list-unstyled lesson-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="4.32"
+                        data-video-url="https://www.youtube.com/embed/xyz123"
+                        data-video-content="Introduction Content"
+                        ></i
+                        ><i class="bi bi-play-circle me-2"></i> Introduction
+                        (04:32)<i class="bi bi-file-earmark-text ms-auto note-icon"></i></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="4.54"
+                        data-video-url="https://www.youtube.com/embed/xyz456"
+                        data-video-content="Curriculum Content"
+                        ><i class="bi bi-play-circle me-2"></i> Curriculum
+                        (04:54)<i class="bi bi-file-earmark-text ms-auto note-icon"></i></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="16.44"
+                        data-video-url="https://www.youtube.com/embed/xyz789"
+                        data-video-content="DevOps Tools Content"
+                        ><i class="bi bi-play-circle me-2"></i> DevOps Tools
+                        (16:44)<i class="bi bi-file-earmark-text ms-auto note-icon"></i></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Linux Basics Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <i class="bi bi-terminal me-2"></i>
+                  <span>Linux Basics</span>
+                  <div class="progress-circle" data-progress="0">
+                    <svg viewBox="0 0 36 36">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#courseAccordion"
+              >
+                <div class="accordion-body">
+                  <ul class="list-unstyled lesson-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="5.00"
+                        data-video-url="https://www.youtube.com/embed/xyz101"
+                        data-video-content="Introduction to Linux Content"
+                        ><i class="bi bi-play-circle me-2"></i> Introduction to
+                        Linux (05:00)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="6.30"
+                        data-video-url="https://www.youtube.com/embed/xyz102"
+                        data-video-content="Linux Commands Content"
+                        ><i class="bi bi-play-circle me-2"></i> Linux Commands
+                        (06:30)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="8.45"
+                        data-video-url="https://www.youtube.com/embed/xyz103"
+                        data-video-content="File Management Content"
+                        ><i class="bi bi-play-circle me-2"></i> File Management
+                        (08:45)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Networking Basics Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <i class="bi bi-router-fill me-2"></i>
+                  <span>Networking Basics</span>
+                  <div class="progress-circle" data-progress="0">
+                    <svg viewBox="0 0 36 36">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#courseAccordion"
+              >
+                <div class="accordion-body">
+                  <ul class="list-unstyled lesson-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="4.15"
+                        data-video-url="https://www.youtube.com/embed/xyz201"
+                        data-video-content="Networking Overview Content"
+                        ><i class="bi bi-play-circle me-2"></i> Networking
+                        Overview (04:15)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="5.50"
+                        data-video-url="https://www.youtube.com/embed/xyz202"
+                        data-video-content="TCP/IP Model Content"
+                        ><i class="bi bi-play-circle me-2"></i> TCP/IP Model
+                        (05:50)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="7.30"
+                        data-video-url="https://www.youtube.com/embed/xyz203"
+                        data-video-content="OSI Model Content"
+                        ><i class="bi bi-play-circle me-2"></i> OSI Model
+                        (07:30)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- DevOps Tools Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <i class="bi bi-tools me-2"></i>
+                  <span>DevOps Tools</span>
+                  <div class="progress-circle" data-progress="0">
+                    <svg viewBox="0 0 36 36">
+                      <path
+                        class="circle-bg"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="circle"
+                        stroke-dasharray="0, 100"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#courseAccordion"
+              >
+                <div class="accordion-body">
+                  <ul class="list-unstyled lesson-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="6.00"
+                        data-video-url="https://www.youtube.com/embed/xyz301"
+                        data-video-content="Introduction to DevOps Content"
+                        ><i class="bi bi-play-circle me-2"></i> Introduction to
+                        DevOps (06:00)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="7.50"
+                        data-video-url="https://www.youtube.com/embed/xyz302"
+                        data-video-content="Jenkins Overview Content"
+                        ><i class="bi bi-play-circle me-2"></i> Jenkins Overview
+                        (07:50)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="video-link"
+                        data-video-length="9.35"
+                        data-video-url="https://www.youtube.com/embed/xyz303"
+                        data-video-content="Docker Basics Content"
+                        ><i class="bi bi-play-circle me-2"></i> Docker Basics
+                        (09:35)<i
+                          class="bi bi-file-earmark-text ms-auto note-icon"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Main Content -->
+        <div class="col-md-9 content">
+          <h4 id="videoTitle">Select a video from the list</h4>
+          <div class="embed-responsive" id="videoContainer">
+            <iframe
+              id="videoFrame"
+              class="embed-responsive-item"
+              src=""
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div
+            id="videoContent"
+            class="content-box"
+            style="display: none"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
